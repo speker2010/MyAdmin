@@ -1,5 +1,5 @@
 <?php
-exit();
+
 $user = (!empty($_POST['user'])) ? trim($_POST['user']) : '';
 $host = (!empty($_POST['host'])) ? trim($_POST['host']) : '';
 $password = (!empty($_POST['password'])) ? trim($_POST['password']) : '';
